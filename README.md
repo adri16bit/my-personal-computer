@@ -1,8 +1,10 @@
-<img width="1666" height="1226" alt="image" src="https://github.com/user-attachments/assets/74ffce82-127f-4bb4-8c3b-ce5c0dc47a68" /><div>
+<img width="1666" height="1226" alt="My Personal Online Computer preview" src="readme.png" />
+
+<div>
   <h1>My Personal Online Computer</h1>
 
   <br>
-  https://ste16bit.com/
+  https://adri16bit.com/
   <br>
   <br>
   <a>Welcome to my personal information project! This page serves as a showcase of my work and interests. I have a deep love for old computers (I even own one!), which brings me back to nostalgic memories of the good old days.
