@@ -1,0 +1,77 @@
+.my-pc-setup-root {
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 100%;
+	padding: 8px 12px 16px;
+	background-color: #cbcbcb;
+	overflow: auto;
+}
+
+.my-pc-setup-section-heading {
+	margin: 0 0 10px 2px;
+	padding: 0;
+	font-family: "Silkscreen", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #050505;
+	text-align: left;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+}
+
+.my-pc-setup-section-heading--spaced {
+	margin-top: 22px;
+}
+
+.my-pc-setup-inset {
+	box-sizing: border-box;
+	background-color: #c0c0c0;
+	border-top: 2px solid #404040;
+	border-left: 2px solid #404040;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	padding: 16px 18px 16px;
+}
+
+.my-pc-setup-body {
+	margin: 0;
+	font-family: "Silkscreen", sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	color: #080808;
+	line-height: 1.45;
+}
+
+.my-pc-setup-hardware-row {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	column-gap: 18px;
+}
+
+.my-pc-setup-hardware-row .my-pc-setup-body {
+	flex: 1;
+	min-width: 0;
+}
+
+.my-pc-setup-computer-img {
+	width: 140px;
+	height: 140px;
+	flex-shrink: 0;
+	object-fit: contain;
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+}
+
+.my-pc-setup-peripherals-row {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	column-gap: 24px;
+}
+
+.my-pc-setup-col {
+	flex: 1;
+	min-width: 0;
+}

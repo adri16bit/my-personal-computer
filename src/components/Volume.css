@@ -1,0 +1,42 @@
+.volume-icon-container {
+	display: flex;
+	width: 800px;
+	height: 25px;
+	position: absolute;
+	justify-content: end;
+	align-items: center;
+	margin-top: 568px;
+	margin-left: -120px;
+}
+
+.volume-icon-container img {
+	width: 30px;
+	height: 30px;
+}
+
+.volume-icon-container img:hover {
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=151740), auto;
+}
+
+/* Player 0×0: escondido do layout mas o iframe do YouTube ainda pode pintar 1px em alguns browsers */
+.volume-youtube-audio-only {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	clip-path: inset(50%);
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	pointer-events: none;
+}
+
+.easter-egg {
+	height: 95px;
+	width: 10px;
+	display: flex;
+	position: absolute;
+	bottom: 30px;
+	left: 730px;
+}

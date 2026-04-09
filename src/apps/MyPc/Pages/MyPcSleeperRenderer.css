@@ -1,0 +1,38 @@
+.my-pc-experience-root {
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 100%;
+	padding: 8px 12px 16px;
+	background-color: #cbcbcb;
+	overflow: auto;
+}
+
+.my-pc-experience-panel {
+	box-sizing: border-box;
+	background-color: #c6c6c6;
+	background-image: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.04) 0 1px, transparent 1px 3px);
+	border: 3px solid #3c3c3c;
+	box-shadow: inset 1px 1px 0 #9a9a9a;
+	padding: 14px 16px 16px;
+}
+
+.my-pc-experience-path {
+	margin: 0 0 12px 0;
+	padding: 0;
+	font-family: "Silkscreen", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #050505;
+	letter-spacing: 0.02em;
+	line-height: 1.2;
+}
+
+.my-pc-experience-body {
+	margin: 0;
+	font-family: "Silkscreen", sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: #080808;
+	line-height: 1.5;
+	text-align: left;
+}
